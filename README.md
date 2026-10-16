@@ -62,7 +62,7 @@ npm install
 2. Execute os testes:
 
 ```bash
-npx mocha "test/**/*.js"
+npm test
 ```
 
 ## Tecnologias
