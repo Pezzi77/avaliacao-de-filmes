@@ -1,5 +1,5 @@
 import assert from "node:assert";
-import { analisarFilme, avaliarFilmes } from "../source/avaliacaoFilmes.js";
+import { analisarFilme, avaliarFilmes } from "../src/avaliacaoFilme.js";
 
 describe("Sistema de Votação de Filmes", () => {
   it('ct01 - deve computar e classificar "Minha mãe é uma peça" como o melhor (recomendado)', () => {
